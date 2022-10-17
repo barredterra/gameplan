@@ -73,8 +73,11 @@ should show up.
 
 ### Frappe Bench
 1. Setup frappe-bench by following [this guide](https://frappeframework.com/docs/v14/user/en/installation)
-1. In the frappe-bench directory, run `bench start` and keep it running. Open a new terminal session and cd into `frappe-bench` directory.
-1. Run the following commands:
+
+    > NOTE: currently this app depends on the `develop` branch of [frappe](https://github.com/frappe/frappe).
+
+3. In the frappe-bench directory, run `bench start` and keep it running. Open a new terminal session and cd into `frappe-bench` directory.
+4. Run the following commands:
     ```sh
     bench new-site gameplan.test
     bench get-app gameplan
